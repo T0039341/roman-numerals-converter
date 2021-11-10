@@ -1,9 +1,9 @@
-/*
-Translate the number to roman numerals
-*/
+
+var methods = {}
 
 
-function run(n) {
+
+methods.romanConverter = function run(n) {
     /*
      * Write your code below; return type and arguments should be according to the problem\'s requirements
      */
@@ -39,3 +39,5 @@ function run(n) {
 
 
 }
+
+exports.data = methods;
