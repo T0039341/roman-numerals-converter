@@ -2,7 +2,7 @@
   "name": "roman-numerals-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "roman-numeral-converter.js",
   "type": "module",
   "scripts": {
     "test": "jest"
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
     "jest": "^27.3.1"
   }
 }
